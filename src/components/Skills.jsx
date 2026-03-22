@@ -107,9 +107,7 @@ const Skills = ({ darkMode }) => {
             className="text-lg max-w-2xl mx-auto leading-relaxed"
             style={{ color: darkMode ? "#d1d5db" : "#4b5563" }}
           >
-            A highly motivated third-year Software Engineering student
-            specializing in Frontend Development, with hands-on experience in
-            ReactJS and API integration.
+            Technologies I possess and their practical applications in projects.
           </p>
         </div>
         <div

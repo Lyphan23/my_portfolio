@@ -10,6 +10,8 @@ const Projects = ({ darkMode }) => {
       desc: "The website suggests dishes based on ingredients and provides cooking instructions.",
       image: project1,
       tag: ["React", "RestAPI", "CSS"],
+      git: "https://github.com/Lyphan23/suggest_meals_publicAPI",
+      demo: "https://suggestmealspublicapi.vercel.app/",
     },
     {
       id: 2,
@@ -17,6 +19,8 @@ const Projects = ({ darkMode }) => {
       desc: "My portfolio website",
       image: project2,
       tag: ["React", "Tailwind CSS", "HTML", "Vite"],
+      git: "https://github.com/Lyphan23/my_portfolio",
+      demo: "https://myportfolio-ashy-six-91.vercel.app/",
     },
   ];
   return (
@@ -100,7 +104,7 @@ const Projects = ({ darkMode }) => {
                 </div>
                 <div className="flex gap-2 mt-auto">
                   <a
-                    href="https://github.com/Lyphan23/suggest_meals_publicAPI"
+                    href={project.git}
                     style={{
                       backgroundColor: darkMode ? "#374151" : "#f3f4f6",
                       color: darkMode ? "white" : "#374151",
@@ -114,7 +118,7 @@ const Projects = ({ darkMode }) => {
                   </a>
                   {/* Demo  */}
                   <a
-                    href="https://suggestmealspublicapi.vercel.app/"
+                    href={project.demo}
                     style={{
                       background: "linear-gradient(to right, #f97316, #f59e0b)",
                     }}

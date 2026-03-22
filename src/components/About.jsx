@@ -54,10 +54,13 @@ const About = ({ darkMode }) => {
             data-aos="fade-up"
             data-aos-delay="500"
           >
-            A highly motivated third-year Software Engineering student
-            specializing in Frontend Development, with hands-on experience in
-            ReactJS and API integration. Eager to gain practical experience and
-            contribute to real-world projects in a professional environment.
+            I am a Software Engineering student at FPT University, aspiring to
+            become a Full-stack Developer. My current focus is mastering
+            Frontend development to build high-performance interfaces and
+            seamless user experiences. This focus serves as a solid foundation
+            for my growth into Backend and full-system architecture. I am
+            committed to creating technology that is both functional and built
+            on clean, maintainable code.
           </p>
           <div className="flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8">
             {/* Education  */}

@@ -90,11 +90,9 @@ const Hero = ({ darkMode }) => {
               data-aos="fade-up"
               data-aos-delay="600"
             >
-              A highly motivated third-year Software Engineering student
-              specializing in Frontend Development, with hands-on experience in
-              ReactJS and API integration. Eager to gain practical experience
-              and contribute to real-world projects in a professional
-              environment.
+              A Software Engineering student dedicated to building impactful
+              digital solutions. I thrive at the intersection of logical backend
+              structures and intuitive user experiences.
             </p>
 
             {/* Buttons */}
