@@ -136,7 +136,7 @@ const Projects = ({ darkMode }) => {
         </div>
         <div className="text-center mt-10">
           <a
-            href="#"
+            href="#projects"
             style={{
               background: "linear-gradient(to right, #f97316, #f59e0b)",
             }}
