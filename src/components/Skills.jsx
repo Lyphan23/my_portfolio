@@ -81,7 +81,7 @@ const Skills = ({ darkMode }) => {
   ];
   return (
     <section
-      style={{ backgroundColor: darkMode ? "#0D182E" : "#f9fafb" }}
+      style={{ backgroundColor: darkMode ? "#0D182E" : "#F3F8FE" }}
       id="skills"
       className="py-14 relative overflow-hidden"
     >

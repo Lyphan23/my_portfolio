@@ -26,7 +26,7 @@ const Projects = ({ darkMode }) => {
   return (
     <section
       id="projects"
-      style={{ backgroundColor: darkMode ? "#0D182E" : "#f9fafb" }}
+      style={{ backgroundColor: darkMode ? "#0D182E" : "#F3F8FD" }}
       className="relative py-24"
     >
       <div className="container mx-auto px-4">
